@@ -1,0 +1,33 @@
+<!-- 
+Se usa dentro de audio o video para definir diferentes formatos del mismo archivo, 
+asegurando compatibilidad. 
+-->
+
+<!--
+Audio
+Permite insertar un archivo de audio en la página. Se puede usar con los atributos:
+
+controls → muestra los controles de reproducción.
+autoplay → reproduce automáticamente (no recomendado en la mayoría de casos).
+loop → repite el audio en bucle.
+-->
+<audio controls>
+  <source src="audio/musica.mp3" type="audio/mpeg">
+  Tu navegador no soporta el elemento de audio.
+</audio>
+
+<hr>
+
+<!--
+Video
+Permite insertar un archivo de video en la página. Atributos comunes:
+
+controls → muestra los controles de reproducción.
+width y height → definen el tamaño del video.
+autoplay → reproduce automáticamente.
+loop → repite el video en bucle.
+-->
+<video controls width="400" height="300">
+  <source src="videos/demo.mp4" type="video/mp4">
+  Tu navegador no soporta el elemento de video.
+</video>

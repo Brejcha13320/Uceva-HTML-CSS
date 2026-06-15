@@ -1,0 +1,64 @@
+<!-- 
+colspan: Une varias columnas en una sola celda. Se aplica en <td> o <th>.
+rowspan: Une varias filas en una sola celda. Se aplica en <td> o <th>.
+border: Define el grosor del borde de la tabla.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Horario Académico</title>
+</head>
+<body>
+  <!-- Título principal -->
+  <h1>Horario Académico</h1>
+
+  <!-- Tabla completa -->
+  <table border="1">
+    <!-- Encabezado -->
+    <thead>
+      <tr>
+        <th>Día</th>
+        <th>Materia</th>
+        <th>Hora</th>
+      </tr>
+    </thead>
+
+    <!-- Cuerpo -->
+    <tbody>
+      <tr>
+        <td>Lunes</td>
+        <td>Matemáticas</td>
+        <td>8:00 AM</td>
+      </tr>
+      <tr>
+        <td>Martes</td>
+        <td>Programación Web</td>
+        <td>10:00 AM</td>
+      </tr>
+      <tr>
+        <td>Miércoles</td>
+        <td>Historia</td>
+        <td>2:00 PM</td>
+      </tr>
+      <tr>
+        <td>Jueves</td>
+        <td>Inglés</td>
+        <td>11:00 AM</td>
+      </tr>
+      <tr>
+        <td>Viernes</td>
+        <td>Física</td>
+        <td>9:00 AM</td>
+      </tr>
+    </tbody>
+
+    <!-- Pie de tabla -->
+    <tfoot>
+      <tr>
+        <td colspan="3">Horario válido para el semestre 2026</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Encuesta de Satisfacción</title>
+</head>
+<body>
+  <!-- Título principal -->
+  <h1>Encuesta de Satisfacción</h1>
+
+  <!-- Formulario -->
+  <form>
+    <!-- Pregunta con radio -->
+    <p>¿Cómo calificarías nuestro servicio?</p>
+    <label><input type="radio" name="calificacion" value="excelente"> Excelente</label><br>
+    <label><input type="radio" name="calificacion" value="bueno"> Bueno</label><br>
+    <label><input type="radio" name="calificacion" value="regular"> Regular</label><br>
+    <label><input type="radio" name="calificacion" value="malo"> Malo</label><br><br>
+
+    <!-- Pregunta con checkbox -->
+    <p>¿Qué aspectos te gustaron?</p>
+    <label><input type="checkbox" name="aspectos" value="atencion"> Atención</label><br>
+    <label><input type="checkbox" name="aspectos" value="rapidez"> Rapidez</label><br>
+    <label><input type="checkbox" name="aspectos" value="calidad"> Calidad</label><br><br>
+
+    <!-- Pregunta con select -->
+    <label for="pais">¿De qué país nos visitas?</label><br>
+    <select id="pais" name="pais">
+      <option value="colombia">Colombia</option>
+      <option value="mexico">México</option>
+      <option value="argentina">Argentina</option>
+      <option value="otros">Otros</option>
+    </select><br><br>
+
+    <!-- Pregunta con textarea -->
+    <label for="comentarios">Comentarios adicionales:</label><br>
+    <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea><br><br>
+
+    <!-- Botón de envío -->
+    <button type="submit">Enviar Encuesta</button>
+  </form>
+</body>
+</html>
