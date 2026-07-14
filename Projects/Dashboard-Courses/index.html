@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard de Cursos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#mis-cursos">Mis Cursos</a>
+            </li>
+            <li>
+                <a href="#notas">Mis Notas</a>
+            </li>
+            <li>
+                <a href="#inscriptción">Inscribirse</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>📚 Dashboard de Cursos</h1>
+        <p>Seguimiento académico.</p>
+    </header>
+
+    <main>
+        <section id="mis-cursos">
+            <h2>Mis Cursos</h2>
+            <div class="contenedor">
+                <article>
+                    <img src="imagenes/html.png">
+                    <h3>HTML</h3>
+                    <p>Progreso 80%</p>
+                    <button>Continuar</button>
+                </article>
+
+                <article>
+                    <img src="imagenes/css.png">
+                    <h3>CSS</h3>
+                    <p>Progreso 60%</p>
+                    <button>Continuar</button>
+                </article>
+
+                <article>
+                    <img src="imagenes/javascript.png">
+                    <h3>JavaScript</h3>
+                    <p>Progreso 20%</p>
+                    <button>Continuar</button>
+                </article>
+            </div>
+
+        </section>
+
+        <section id="notas">
+            <h2>Notas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Curso</th>
+                        <th>Nota</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>4.5</td>
+                        <td>Aprobado</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>4.2</td>
+                        <td>Aprobado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="inscripcion">
+            <h2>Inscribirse</h2>
+            <form>
+                <input type="text" placeholder="Nombre">
+                <select>
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>JavaScript</option>
+                </select>
+                <textarea placeholder="Comentarios"></textarea>
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>Programación en Ambiente Web</footer>
+
+</body>
+
+</html>
